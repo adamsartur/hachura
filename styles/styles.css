@@ -51,7 +51,7 @@ body {
   }
   
   #toggle-draw-mode.active {
-    background-color: #a74628;
+    filter: brightness(0.8);
   }
   
   #toggle-draw-mode:hover {
