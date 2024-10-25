@@ -83,3 +83,9 @@ A **Aplicação de Desenho de Hachuras** permite que os usuários desenhem hachu
   - **>**: Ir para a próxima página.
   - **>>**: Avançar 10 páginas.
 - O número da página atual e o total de páginas são exibidos entre os botões.
+
+### Detalhes Implementação
+
+- Em um refinement ou planning, eu iria confirmar algumas expectativas do comportamento que acabei assumindo da seguinte forma:
+  - Remover Hachura fica disponível em modo desenho; pra mim não estava claro
+  - A api não envia o Header que autoriza o acesso do javascript ao parametro total_page, sendo assim se não for recebido estou defaultando para 100
