@@ -51,11 +51,11 @@ body {
   }
   
   #toggle-draw-mode.active {
-    filter: brightness(0.8);
+    background-color: #a74628;
   }
   
   #toggle-draw-mode:hover {
-    background-color: var(--primary-color-hover);
+    filter: brightness(0.8);
   }
   
   #image-container {
